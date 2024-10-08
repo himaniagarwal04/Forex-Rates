@@ -27,5 +27,6 @@ android {
 
 dependencies {
     implementation(libs.androidx.appcompat) // Using alias for AppCompat
+
     implementation(libs.kotlin.stdlib)     // Using alias for Kotlin standard library
 }
