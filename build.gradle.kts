@@ -26,7 +26,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.appcompat) // Using alias for AppCompat
-
-    implementation(libs.kotlin.stdlib)     // Using alias for Kotlin standard library
+    implementation(platform(libs.androidx.core.bom)) // Assuming 'bom' is defined in your libs object
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
 }
